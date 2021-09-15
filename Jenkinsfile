@@ -2,7 +2,6 @@ node {
     def app
     
      stage('Initialize'){
-        def dockerHome = tool 'myDocker'
      }
      
      stage('Clone repository') {
